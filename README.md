@@ -8,7 +8,7 @@ PHP7.0 Version
 ## Resources
 
 
-* mysql image from docker hub:
+*mysql image from docker hub:
 https://hub.docker.com/_/mysql
 * phpmyadmin image from docker hub 
 https://hub.docker.com/r/phpmyadmin/phpmyadmin
