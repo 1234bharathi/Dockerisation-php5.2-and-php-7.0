@@ -16,7 +16,7 @@ https://hub.docker.com/r/phpmyadmin/phpmyadmin
 https://hub.docker.com/_/php/
 
 commands:
-docker-compose build
-docker-compose up
+* docker-compose build
+* docker-compose up
 
 now you would be able to see the index.php page wchich shows the connection parameters and the current php version
