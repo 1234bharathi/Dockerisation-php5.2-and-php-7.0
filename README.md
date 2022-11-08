@@ -1,11 +1,18 @@
-## docker-php-5.2.17
+# myonlineedu-php-mysql-docker
+PHP and MySql application for docker container example with PHPMyAdmin
 
-![Docker Image Version (tag latest semver)](https://img.shields.io/docker/v/clagomess/docker-php-5.2/latest?label=DockerHub)
+## Resources
 
-- Add `docker-compose.yml` and `Dockerfile` to your project;
-- Run `docker-compose build && docker-compose up`;
-- Access on your preferred web browser through endpoint http://localhost:8000
-- OpCache Panel: `http://localhost:8000/opcache/`
 
-### Instaled Extensions
-- Comming soon
+* mysql image from docker hub:
+https://hub.docker.com/_/mysql
+* phpmyadmin image from docker hub 
+https://hub.docker.com/r/phpmyadmin/phpmyadmin
+* php apache 7.0 image from docker hub
+https://hub.docker.com/_/php/
+
+commands:
+docker-compose build
+docker-compose up
+
+now you would be able to see the index.php page 
