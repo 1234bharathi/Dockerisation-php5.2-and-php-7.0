@@ -1,7 +1,11 @@
 # myonlineedu-php-mysql-docker
 PHP and MySql application for docker container example with PHPMyAdmin
 
-## Resources
+##Prerequsites
+*vscode or any editor
+*After executing docker_compose file,navigate to the phpmyadmin port and make the database and tables.
+
+### Resources
 
 
 * mysql image from docker hub:
@@ -15,4 +19,4 @@ commands:
 docker-compose build
 docker-compose up
 
-now you would be able to see the index.php page 
+now you would be able to see the index.php page wchich shows the connection parameters and the current php version
